@@ -1,0 +1,108 @@
+* {
+    @import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap');
+    font-family: "Playwright HU", cursive;
+}
+body{
+    font-family: "Playwright HU", cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    transition: background-color 0.5s ease;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    color:#FF0099;
+}
+header{
+    background: #373B44;  
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  
+    background: linear-gradient(to right, #4286f4, #373B44);
+    color: white;
+    text-align:center;
+    padding: 10px 0;
+}
+#changeColor {
+    background: #FF0099;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #493240, #FF0099);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #493240, #FF0099); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none; /* Optional: Remove the border */
+    padding: 10px 20px; /* Optional: Add padding */
+    cursor: pointer; /* Optional: Change the cursor to pointer */
+    transition: background-color 0.5s ease; /* Optional: Add transition effect */
+}
+
+#changeColor:hover {
+    background-color: #373B44; /* Optional: Change the color on hover */
+}
+
+
+main{
+    flex: 1;
+    padding: 20px;
+    padding-bottom: 10px;
+
+}
+
+section{
+    margin-bottom: 20px;
+
+}
+
+footer{
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    bottom: 0;
+    width: 100%;
+}
+.gallery img{
+    width: 30%;
+    margin-bottom: 20px;
+
+}
+
+#contactForm {
+    margin-bottom: 60px; /* Increase bottom margin */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#contactForm input,
+#contactForm textarea,
+#contactForm button {
+    padding: 5px;
+    height: 45px;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    flex: 1;
+}
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 700px; /* Set a max-width for the container */
+    width: 100%;
+}
+#contactForm textarea {
+    height: 45px; /* Set a fixed height for the textarea */
+}
+
+#contactForm button {
+    background-color: magenta;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 8px 32px;
+    transition: background-color 0.5s ease;
+    flex: 0 1 auto; /* Ensure button is not stretched */
+}
+
+#contactForm button:hover {
+    background-color: #555;
+}
